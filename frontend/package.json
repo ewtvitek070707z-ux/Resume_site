@@ -1,0 +1,10 @@
+{
+  "name": "nadezhda-portfolio-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node ../scripts/dev/serve.mjs",
+    "test": "node --test ../tests/unit/frontend/*.test.mjs"
+  }
+}

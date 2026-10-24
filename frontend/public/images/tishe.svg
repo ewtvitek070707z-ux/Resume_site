@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="860" viewBox="0 0 700 860">
+<defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8f5df"/><stop offset=".45" stop-color="#d6d6b2"/><stop offset=".72" stop-color="#fbf7e5"/><stop offset="1" stop-color="#a2a77f"/></linearGradient><filter id="s" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="12" dy="25" stdDeviation="19" flood-color="#222b0e" flood-opacity=".35"/></filter></defs>
+<rect width="700" height="860" fill="#727949"/>
+<g fill="#f3f0dc" font-family="Arial,sans-serif"><text x="38" y="47" font-size="12" letter-spacing="2">ПРОСТРАНСТВО ДЛЯ ПАУЗЫ</text><text x="662" y="47" text-anchor="end" font-size="12">01 — 26</text><text x="29" y="239" font-size="188" font-weight="bold" letter-spacing="-16">тише</text></g>
+<g filter="url(#s)" fill="none" stroke="url(#a)" stroke-width="76" stroke-linecap="round"><path d="M218 582C88 400 295 295 414 383S573 580 464 637 244 664 252 539 433 405 458 501 335 611 335 519"/></g>
+<g fill="#f3f0dc" font-family="Arial,sans-serif" font-size="13"><text x="38" y="779">Меньше шума.</text><text x="38" y="800">Больше ощущений.</text><text x="662" y="800" text-anchor="end">ВИЗУАЛЬНАЯ ИДЕНТИЧНОСТЬ ↗</text></g><path d="M38 825H662" stroke="#d1d3ae" stroke-opacity=".6"/>
+</svg>
