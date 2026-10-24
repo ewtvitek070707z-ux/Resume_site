@@ -1,6 +1,7 @@
 # Предпросмотр для согласования на GitHub Pages
 
-Исходная ветка: `feature/portfolio-first-draft`.
+Текущая исходная ветка предпросмотра: `feature/portfolio-three-pages`.
+Ветка назначения pull request: `feature/portfolio-first-draft`.
 Ветка публикации: `gh-pages`, содержит только историю каталога `frontend/`.
 Основная ветка `main` и pull request для предпросмотра не требуются.
 
@@ -21,11 +22,14 @@
 После сохранения изменений фронтенда коммитом, из корня исходной ветки:
 
 ```sh
-git push origin feature/portfolio-first-draft
+git push origin feature/portfolio-three-pages
 git subtree push --prefix frontend origin gh-pages
 ```
 
 Обновление ветки `gh-pages` запускает публикацию после включения Pages.
+Команды выполняются из `feature/portfolio-three-pages`: публикация использует
+её фронтенд и не требует слияния открытого pull request.
+Адрес предпросмотра: https://ewtvitek070707z-ux.github.io/Resume_site/.
 Не меняйте эту ветку вручную и не используйте принудительную отправку:
 история публикации получается из каталога `frontend/`.
 
