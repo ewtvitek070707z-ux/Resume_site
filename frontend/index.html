@@ -6,20 +6,20 @@
     <meta name="theme-color" content="#f0eee8" />
     <meta name="robots" content="noindex, nofollow" />
     <meta name="description" content="Первый визуальный вариант портфолио Надежды: графический дизайн, айдентика и редакционный дизайн. Демонстрационные проекты." />
-    <title>Надежда — графический дизайн</title>
+    <title>Работы — Надежда, графический дизайнер</title>
     <link rel="icon" href="./public/images/mark.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="./src/styles/main.css" />
+    <link rel="stylesheet" href="./src/styles/pages.css" />
     <script type="module" src="./src/main.js"></script>
+    <script type="module" src="./src/components/site-shell.js"></script>
   </head>
-  <body>
+  <body data-page="work">
     <a class="skip-link" href="#main">Перейти к содержимому</a>
-    <header class="site-header wrapper">
-      <a class="wordmark" href="#" aria-label="Надежда, на главную">надежда<span>↗</span></a>
-      <span class="header-description">Графический дизайнер<br />Портфолио / первый эскиз</span>
+    <header class="site-header wrapper" data-site-header>
       <nav aria-label="Основная навигация">
-        <a href="#work">Работы <span class="nav-count">04</span></a>
-        <a href="#about">Обо мне</a>
-        <a href="#contact">Контакт <span aria-hidden="true">↗</span></a>
+        <a href="./index.html" aria-current="page">Работы</a>
+        <a href="./about.html">Обо мне</a>
+        <a href="./contacts.html">Контакты</a>
       </nav>
     </header>
 
@@ -50,19 +50,10 @@
         <p class="demo-note"><span aria-hidden="true">↳</span> Здесь показаны вымышленные проекты для оценки композиции. Заменим их реальными работами Надежды.</p>
       </section>
 
-      <section class="about-section wrapper" id="about" aria-labelledby="about-title">
-        <div class="section-top"><span class="section-number">02 / Обо мне</span><span>За каждой работой — человек</span></div>
-        <div class="about-layout"><div><span class="about-mark" aria-hidden="true">н.</span><p class="small-label">Надежда<br />Графический дизайнер</p></div><div class="about-copy"><h2 id="about-title">Разные инструменты.<br /><em>Один авторский взгляд.</em></h2><p>Для меня дизайн начинается с идеи. Важно найти её точное выражение — в знаке, на странице, в пространстве или на экране.</p><p class="muted">Это пример вступительного текста. Опыт, образование и профессиональные навыки добавим по резюме Надежды.</p><div class="disciplines"><span>Визуальная идентичность</span><span>Типографика и графика</span><span>Редакционный дизайн</span><span>Цифровые проекты</span></div></div></div>
-      </section>
-
-      <section class="contact-section wrapper" id="contact" aria-labelledby="contact-title">
-        <div class="section-top"><span class="section-number">03 / Контакт</span><span>Хорошие проекты начинаются с разговора</span></div>
-        <h2 id="contact-title">Создадим<br /><em>что-то своё.</em><span class="contact-arrow" aria-hidden="true">↗</span></h2>
-        <div class="contact-bottom"><p>Почту и профессиональные ссылки<br />добавим после согласования контактов.</p><a class="text-link" href="#work">Вернуться к работам <span aria-hidden="true">↑</span></a></div>
-      </section>
+      <aside class="page-next wrapper"><span>За каждой работой — человек.</span><a href="./about.html">Познакомимся ближе <span aria-hidden="true">↗</span></a></aside>
     </main>
 
-    <footer class="site-footer wrapper"><a class="wordmark" href="#">надежда<span>↗</span></a><span>Визуальная концепция / 2026</span><span>Сделано с вниманием к деталям.</span></footer>
+    <footer class="site-footer wrapper" data-site-footer><span>Надежда / Портфолио</span></footer>
     <dialog class="project-dialog" id="project-dialog" aria-labelledby="case-title"><div id="case-content"></div></dialog>
     <noscript><p class="wrapper">Для открытия проектов включите JavaScript. Основные разделы сайта доступны без него.</p></noscript>
   </body>

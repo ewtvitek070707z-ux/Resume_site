@@ -45,7 +45,6 @@ window.addEventListener('hashchange', syncProject);
 try {
   projects = await getProjects();
   grid.innerHTML = projects.map(projectCard).join('');
-  document.querySelector('.nav-count').textContent = String(projects.length).padStart(2, '0');
   document.querySelector('.superscript').textContent = `(${String(projects.length).padStart(2, '0')})`;
   syncProject();
 } catch (error) {
