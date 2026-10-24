@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+<defs><linearGradient id="paper"><stop stop-color="#e9e4da"/><stop offset=".48" stop-color="#faf5e9"/><stop offset=".5" stop-color="#c2b9a8"/><stop offset=".52" stop-color="#eee9de"/><stop offset="1" stop-color="#f9f3e8"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-opacity=".18"/></filter></defs>
+<rect width="800" height="1000" fill="#d3c9ba"/>
+<g transform="rotate(8 400 500)" filter="url(#shadow)"><rect x="55" y="165" width="690" height="670" fill="url(#paper)"/>
+<g fill="#b82923" font-family="Arial,sans-serif"><text x="83" y="215" font-size="12">НЕЗАВИСИМОЕ ИЗДАНИЕ</text><text x="711" y="215" text-anchor="end" font-size="12">№ 01</text><text x="78" y="345" font-size="105" font-weight="bold" letter-spacing="-8">смеще</text><text x="273" y="445" font-size="105" font-weight="bold" letter-spacing="-8">ние.</text><text x="85" y="771" font-size="13">ДРУГОЙ УГОЛ ЗРЕНИЯ</text><text x="711" y="797" text-anchor="end" font-size="12">ВИЗУАЛЬНАЯ КУЛЬТУРА / 2026</text></g>
+<path d="M85 484H712M85 735H712" stroke="#b82923"/>
+<g stroke="#b82923" stroke-width="2" fill="none"><ellipse cx="400" cy="605" rx="230" ry="90" transform="rotate(-13 400 605)"/><ellipse cx="400" cy="605" rx="190" ry="90" transform="rotate(-25 400 605)"/><ellipse cx="400" cy="605" rx="145" ry="90" transform="rotate(-38 400 605)"/><ellipse cx="400" cy="605" rx="90" ry="90"/><ellipse cx="400" cy="605" rx="40" ry="90" transform="rotate(20 400 605)"/></g></g>
+</svg>

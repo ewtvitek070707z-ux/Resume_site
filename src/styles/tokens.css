@@ -1,0 +1,10 @@
+:root {
+  --paper: #f0eee8;
+  --ink: #24251f;
+  --muted: #68685f;
+  --line: #cac9bf;
+  --surface: #e4e2d9;
+  --accent: #a44429;
+  --sans: Arial, Helvetica, sans-serif;
+  --serif: Georgia, 'Times New Roman', serif;
+}

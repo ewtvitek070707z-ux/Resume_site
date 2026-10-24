@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="900" viewBox="0 0 1100 900">
+<defs><filter id="s"><feDropShadow dx="0" dy="25" stdDeviation="20" flood-color="#2b164f" flood-opacity=".2"/></filter></defs><rect width="1100" height="900" fill="#b8aacb"/>
+<g filter="url(#s)"><rect x="80" y="110" width="940" height="680" fill="#f0eee8"/>
+<g fill="#24251f" font-family="Arial,sans-serif"><text x="112" y="158" font-size="16" font-weight="bold">точка сборки ↗</text><text x="984" y="158" text-anchor="end" font-size="11">ПРОЕКТЫ / ОБЪЕДИНЕНИЕ / КОНТАКТ</text><text x="109" y="291" font-size="106" letter-spacing="-8">Идеи находят</text><text x="109" y="395" font-family="Georgia,serif" font-style="italic" font-size="107" letter-spacing="-6">своё место.</text><text x="115" y="451" font-size="12">НЕЗАВИСИМОЕ ТВОРЧЕСКОЕ ОБЪЕДИНЕНИЕ</text></g>
+<path d="M113 183H987M113 484H987" stroke="#b6b5a9"/>
+<rect x="114" y="514" width="378" height="220" fill="#b5b9a2"/><circle cx="303" cy="625" r="80" fill="none" stroke="#eff1dd" stroke-width="23"/><path d="M215 705L392 546" stroke="#eff1dd" stroke-width="2"/>
+<rect x="512" y="514" width="240" height="220" fill="#c1b4cf"/><g fill="#43344e" font-family="Georgia,serif" font-size="96" font-style="italic"><text x="538" y="610">Aa</text><text x="569" y="695">Бб</text></g>
+<g fill="#24251f" font-family="Arial,sans-serif" font-size="11"><text x="781" y="539">01 — ОБЪЕКТЫ</text><text x="781" y="570">02 — ГРАФИКА</text><text x="781" y="601">03 — ПРОСТРАНСТВА</text><text x="781" y="719">СМОТРЕТЬ ВСЁ ↗</text></g></g>
+</svg>
